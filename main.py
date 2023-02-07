@@ -11,6 +11,8 @@ from tests import *
 
 W,H = 1920, 1080
 
+
+
 win = display.set_mode((W,H))
 timer = time.Clock()
 
