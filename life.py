@@ -3,7 +3,7 @@ from colors import *
 
 class Life:
     all_lifes = []
-    all_genders = ['male','female','bimale']
+    all_genders = ['male','female']
 
     def __init__(self, cell, sex):
         if cell.value: return None
